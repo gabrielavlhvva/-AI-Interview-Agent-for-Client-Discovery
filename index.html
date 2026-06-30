@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BI SmartBilling Agent</title>
+  <title>Health Hub | AI Discovery Interview</title>
 
   <style>
     * {
@@ -27,7 +27,6 @@
       color: inherit;
     }
 
-    /* Top header */
     .top-header {
       background: #efefef;
       padding: 22px 32px;
@@ -55,7 +54,6 @@
       color: #1f4a73;
     }
 
-    /* Navigation */
     .nav-bar {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 220px 280px;
@@ -105,7 +103,6 @@
       padding: 0 10px;
     }
 
-    /* Hero section */
     .hero {
       position: relative;
       padding: 42px 24px 90px;
@@ -126,7 +123,6 @@
       min-height: 520px;
     }
 
-    /* Left circular visual */
     .circle-wrap {
       position: absolute;
       left: 70px;
@@ -166,7 +162,6 @@
       display: block;
     }
 
-    /* Orange banner */
     .announcement {
       position: absolute;
       left: 420px;
@@ -174,13 +169,36 @@
       top: 320px;
       background: #f39a00;
       color: white;
-      font-size: 18px;
+      font-size: 22px;
       font-weight: 700;
-      padding: 18px 24px;
+      padding: 20px 24px;
       box-shadow: 0 8px 20px rgba(0,0,0,0.12);
     }
 
-    /* Floating contact icons */
+    .description-box {
+      max-width: 1200px;
+      margin: 40px auto 70px auto;
+      padding: 0 24px;
+    }
+
+    .description-card {
+      background: white;
+      padding: 35px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+
+    .description-card h2 {
+      margin-top: 0;
+      color: #203a56;
+    }
+
+    .description-card p {
+      line-height: 1.8;
+      color: #555;
+      font-size: 17px;
+    }
+
     .floating-icons {
       position: fixed;
       right: 18px;
@@ -205,7 +223,6 @@
       box-shadow: 0 6px 18px rgba(0,0,0,0.18);
     }
 
-    /* ElevenLabs widget */
     elevenlabs-convai {
       position: fixed;
       bottom: 24px;
@@ -213,7 +230,6 @@
       z-index: 30;
     }
 
-    /* Footer */
     .footer {
       background: #203a56;
       color: white;
@@ -222,8 +238,8 @@
       font-size: 14px;
     }
 
-    /* Tablet */
     @media (max-width: 1100px) {
+
       .nav-bar {
         grid-template-columns: 1fr 1fr 1fr;
       }
@@ -262,8 +278,8 @@
       }
     }
 
-    /* Mobile */
     @media (max-width: 768px) {
+
       .top-header {
         padding: 18px 20px;
       }
@@ -272,18 +288,8 @@
         font-size: 18px;
       }
 
-      .lang-switch {
-        font-size: 13px;
-      }
-
       .nav-bar {
         grid-template-columns: 1fr;
-      }
-
-      .nav-item,
-      .cta-orange,
-      .cta-green {
-        min-height: 48px;
       }
 
       .hero {
@@ -309,7 +315,6 @@
 
       .announcement {
         font-size: 16px;
-        padding: 14px 16px;
       }
 
       .floating-icons {
@@ -318,61 +323,91 @@
     }
   </style>
 </head>
+
 <body>
 
-  <header class="top-header">
-    <div class="logo">
-      <span class="accent">BI</span>NA<br />
-      ISTRA
-    </div>
-    <div class="lang-switch">HR | EN</div>
-  </header>
-
-  <nav class="nav-bar">
-    <div class="nav-item">CESTARINA</div>
-    <div class="nav-item">Y ONLINE</div>
-    <div class="nav-item search">TRAŽI 🔍</div>
-    <div class="cta-orange">KONTAKT</div>
-    <div class="cta-green">MOJ KORISNIČKI RAČUN</div>
-  </nav>
-
-  <section class="hero">
-    <div class="hero-inner">
-
-      <div class="circle-wrap">
-        <div class="circle-accent"></div>
-        <div class="circle-image">
-          <img src="toll.jpg" alt="Toll road" />
-        </div>
-      </div>
-
-      <div class="announcement">
-        SmartBilling assistant for tolling, invoices and account support
-      </div>
-
-    </div>
-  </section>
-
-  <div class="floating-icons">
-    <div class="floating-icon">✉️</div>
-    <div class="floating-icon">?</div>
+<header class="top-header">
+  <div class="logo">
+    <span class="accent">HEALTH</span><br>
+    HUB
   </div>
 
-  <footer class="footer">
-    © 2026 BI SmartBilling Demo | Powered by Conversational AI
-  </footer>
+  <div class="lang-switch">
+    AI DISCOVERY DEMO
+  </div>
+</header>
 
-  <elevenlabs-convai
-    agent-id="agent_0301kshmfw32f8sat8f8ye1c8yaq"
-    variant="compact"
-    dismissible="true">
-  </elevenlabs-convai>
+<nav class="nav-bar">
+  <div class="nav-item">SERVICES</div>
+  <div class="nav-item">DEPARTMENTS</div>
+  <div class="nav-item search">SEARCH 🔍</div>
+  <div class="cta-orange">CONTACT</div>
+  <div class="cta-green">PATIENT PORTAL</div>
+</nav>
 
-  <script
-    src="https://unpkg.com/@elevenlabs/convai-widget-embed"
-    async
-    type="text/javascript">
-  </script>
+<section class="hero">
+  <div class="hero-inner">
+
+    <div class="circle-wrap">
+
+      <div class="circle-accent"></div>
+
+      <div class="circle-image">
+        hospital.jpg
+      </div>
+
+    </div>
+
+    <div class="announcement">
+      AI Interview Agent for Healthcare Process Discovery
+    </div>
+
+  </div>
+</section>
+
+<section class="description-box">
+  <div class="description-card">
+
+    <h2>Hospital Operational Discovery Interview</h2>
+
+    <p>
+      Welcome to the AI Discovery Interview demo. This conversational AI assistant is designed
+      to conduct structured stakeholder interviews within healthcare organizations.
+    </p>
+
+    <p>
+      The agent identifies operational processes, systems used, data handling practices,
+      bottlenecks, manual activities and potential automation opportunities. The interview
+      is performed through a natural voice conversation and automatically generates
+      consultant-friendly insights for further assessment.
+    </p>
+
+    <p>
+      To start the demo, simply click the voice assistant in the bottom-right corner.
+    </p>
+
+  </div>
+</section>
+
+<div class="floating-icons">
+  <div class="floating-icon">🏥</div>
+  <div class="floating-icon">🤖</div>
+</div>
+
+<footer class="footer">
+  © 2026 AI Discovery Interview Demo | Powered by ElevenLabs Conversational AI
+</footer>
+
+<elevenlabs-convai
+  agent-id="agent_7101kwa26wnbfzg9wpxw1py06z5b"
+  variant="compact"
+  dismissible="true">
+</elevenlabs-convai>
+
+venlabs/convai-widget-embed"
+  async
+  type="text/javascript">
+</script>
 
 </body>
 </html>
